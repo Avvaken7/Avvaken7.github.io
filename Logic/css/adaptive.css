@@ -1,0 +1,344 @@
+   /**************************************************************************/
+  /*----------------------- ADAPTIVE -------------------------------------- */
+ /**************************************************************************/
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-item {
+		margin-bottom: 10px;
+	}
+	.navbar-item a {
+		font-size: 16px;
+	}
+	.navbar-item a::before {
+		display: none;
+	}
+	h1 {
+		margin-top: 70px;
+	}
+	.tabs {
+		min-width: 169px;
+	}
+	.tabs::after {
+		border-width: 33px 85px 0 85px;
+		top: 124px;
+	}
+	.tabs i {
+		font-size: 25px;
+		margin: 31px 0px 18px 0px;
+	}
+	.services .main_text {
+   		margin: 35px 0px 30px 0px;
+	}
+	.tabs_text, .tabs_image {
+    	margin-top: 83px;
+	}
+	.tabs_image {
+		margin-top: 150px;
+	}
+	.featured_work h2 {
+    	margin: 85px 0px 46px 0px;
+	}
+	.featured_work_text {
+		display: none;		
+	}
+	.featured_work h3 {
+    	margin-bottom: 15px;
+	}
+	.video {
+		height: 400px;
+		margin-top: 100px;
+	}
+	.video i {
+		margin: 155px 0px 50px 0px;
+	}
+	.tabs_text--wrap {
+    	margin-bottom: 25px;
+	}
+	.about .tab-content {
+		margin: 100px 0px 0px 28px;
+	}
+	.skills .top {
+		margin: 75px 0px;
+	}
+	.nav-item-horizontal {
+		width: 110px;
+	}
+	.nav-item-horizontal::after {
+		border-width: 9px 54px 0 54px;
+	}
+	.o-services_icon::before,.o-services_icon::after {
+		display: none;		
+	}
+	.o-services_icon {
+		height: 50px;
+    	width: 50px;
+		border: 1px solid #ddd;
+		border-radius: 50%;
+	}
+	.o-services h2 {
+    	margin: 100px 0px 50px 0px;
+	}	
+	.o-services_head h3 {
+		margin-left: 10px;
+		font-size: 13px;
+	}
+	.o-services .main_text {
+		font-size: 12px;
+	}
+	.modal {
+		width: 130px;
+	    height: 102px;
+	    margin: 53px 0px 0px 10px;
+	}
+	.team-image_social {
+		display: none;
+	}
+	.team h2,.choose h2 {
+	    margin: 100px 0px 46px;
+	}
+	section.top {
+		margin: 100px 0px;
+	}
+	.projects-grid {
+		grid-gap: 16px;
+		margin-top: 30px;
+	}
+	.testimonial-quote {
+		font-size: 17px;
+	}
+	.contacts-icon {
+		width: 50px;
+		height: 50px;
+		border-right: 1px solid #ddd;
+		border-radius: 50%;
+	}
+	.contacts-icon::before,.contacts-icon::after {
+		display: none;		
+	}
+	.contacts-wrap {
+		margin-bottom: 5px;
+	}
+	.contacts-text {
+		margin-left: 10px;
+	}
+	.contacts-text h3 {
+		margin-bottom: 0;
+	}
+	.form-row {
+		display: block;		
+	}
+	.contacts textarea {
+		min-height: 0;
+	}
+	.footer-navbar .top {
+		margin: 80px 0px;
+	}
+	.social-icon i {
+		font-size: 16px;
+	}
+
+	
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.animated {
+		transition-property: none !important;
+		transform: none !important;
+		animation: none !important;
+	}
+	.navbar-item {
+		margin-bottom: 10px;
+	}
+	.navbar-item a {
+		font-size: 16px;
+	}
+	.navbar-item a::before {
+		display: none;
+	}
+	h1 {
+		margin-top: 70px;
+	}
+	.tabs_text {
+    	margin-top: 50px;
+	}
+	.services .main_text {
+   		margin: 29px 0px 23px 0px;
+   		font-size: 16px;
+	}
+	.featured_work h2 {
+    	margin: 70px 0px 38px 0px;
+	}
+	.featured_work h3 {
+    	margin-bottom: 16px;
+    	font-size: 20px;
+	}
+	.video {
+		margin-top: 50px;
+		background: none;
+		background-color: #ddd;
+		opacity: 0.7;
+		height: 300px;
+	}
+	.video i {
+		margin: 90px 0px 50px 0px;
+	}
+	.video i, .video h3 {
+		color: #000;
+	}
+	.about h2 {
+    	margin: 60px 0px 60px 0px;
+	}
+	.about h3 {
+		margin-top: 27px;
+	}
+	.nav-tabs .nav-item {
+    	margin-bottom: 25px;
+	}
+	.tabs_text--wrap {
+    	margin-bottom: 96px;
+	}
+	.skills .top {
+		margin: 75px 0px;
+	}
+	.nav-item-horizontal {
+		width: 150px;
+		margin-bottom: 30px;
+		background-color: #fff;
+	}
+	.nav-item-horizontal:hover {
+		cursor: pointer;
+	}
+	.nav-item-horizontal::after {
+		display: none;		
+	}
+	.o-services_icon::before,.o-services_icon::after {
+		display: none;		
+	}
+	.o-services_icon {
+		height: 50px;
+    	width: 50px;
+		border: 1px solid #ddd;
+		border-radius: 50%;
+	}
+	.o-services h2 {
+    	margin: 100px 0px 50px 0px;
+	}	
+	.o-services_head h3 {
+		margin-left: 10px;
+	}
+	.o-services .main_text {
+		font-size: 16px;
+	}
+	.o-services .mt-5 {
+		margin-top: 0!important;
+	}
+	.modal {
+		width: 219px;
+	    height: 160px;
+	    margin: 79px 0px 0px 10px;
+	}
+	.team-image_social {
+		display: block;
+	}
+	.team h2,.choose h2 {
+	    margin: 100px 0px 46px;
+	}
+	.mb-on-sm {
+		margin-bottom: 25px;
+	}
+	.btn-cards {
+	    font-size: 16px;
+	    font-weight: 500;	 
+	    background-color: #fff;	    
+	    width: 100%;
+	}
+	section.top {
+		margin: 60px 0px;
+	}
+	.projects-grid {
+		grid-gap: 16px;
+		margin-top: 30px;
+	}
+	.toggles {
+		justify-content: flex-start!important;
+		margin-top: 30px;
+	}
+	.toggles button {
+	    padding: 7px;
+	    border: 1px solid #ddd;
+	    font-size: 13px;
+	    font-weight: 700;
+	}
+	.toggles button::before {
+	    display: none;	    
+	}
+	.main-gallery {
+		background: none;
+		background-color: #ddd;
+		opacity: 0.7;
+	}
+	.testimonial {
+	    margin: 130px auto 130px auto;
+	}
+	.testimonial-quote {
+		font-size: 15px;
+	}
+	.testimonial-quote, .testimonial-author {
+		color: #000;
+	}
+	.flickity-page-dots .dot {
+		width: 15px;
+   		height: 15px;
+	    border-radius: 50%;
+	    border: 1px solid #444;
+	}
+	.contacts-icon {
+		width: 50px;
+		height: 50px;
+		border-right: 1px solid #ddd;
+		border-radius: 50%;
+	}
+	.contacts-icon::before,.contacts-icon::after {
+		display: none;		
+	}
+	.contacts-wrap {
+		margin-bottom: 5px;
+	}
+	.contacts-text {
+		margin-left: 10px;
+	}
+	.contacts h2 {
+	    margin: 50px 0px 60px 0px;
+	}
+	.contacts-text h3 {
+		margin-bottom: 0;
+	}
+	.form-row {
+		display: block;		
+	}
+	.contacts textarea {
+		min-height: 0;
+	}
+	.footer-navbar .top {
+		margin: 80px 0px;
+	}
+	.social-icon i {
+		font-size: 16px;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	
+}
