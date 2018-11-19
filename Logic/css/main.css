@@ -464,7 +464,7 @@ header .main_button {
 .modal {
 	width: 230px;
 	height: 154px;
-	margin: 70px 0px 0px 20px;
+	margin: 171px 0px 0px 12px;
 	transition: 0.3s;
 	opacity: 0;
 	position: absolute;

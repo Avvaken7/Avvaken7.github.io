@@ -392,9 +392,6 @@
 	.skills .top {
 	    margin: 30px 0px;
 	}
-	.skills h3 {
-		font-size: 
-	}
 	.fun_facts--wrap {
 	    flex-direction: row;
 	    justify-content: center;
@@ -413,7 +410,7 @@
 		text-align: center;		
 	}
 	.modal {
-	    margin: 170px 0px 0px 63px;
+	    margin: 169px 0px 0px 78px;
 	}
 	footer .main_text {
 		display: none;		
